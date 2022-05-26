@@ -1,6 +1,6 @@
-const a = "blaaaaaa";
+const foo = "blaaaaaa";
 
-function multiply(a = 1, b) {
+function multiply(b, a = 1) {
   // Noncompliant
   return a * b;
 }
