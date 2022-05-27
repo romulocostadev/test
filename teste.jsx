@@ -4,7 +4,11 @@ import React from "react";
 // teste 123
 
 function test() {
-  return <div />;
+    return (
+      <div>
+        <h1>Teste</h1>
+      </div>
+    );
 }
 
 export default test;
