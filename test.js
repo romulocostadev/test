@@ -6,3 +6,5 @@ function multiply(b, a = 1) {
 }
 
 var x = multiply(42); // returns NaN as b is undefined
+
+const bla = "teste";
